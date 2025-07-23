@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Frank Jr</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="/assets/img/PhotoN.jpg" alt="Foto de Perfil" class="photo profile.photo" >
+        
+            <h1 class="title">
+            Olá, eu sou <br> <span class="profile.name">Frank Jr</span>
+            </h1>
+        
+            <div class="information">
+                <p class="pessoa">Estudante de ADS 2ºPeriodo - Uninorte/AM</p>
+                <p class="pessoa">Prof. Esp. Matemática - Seduc/AM</p>
+                <p class="local">Manaus - AM</p>
+                <p class="zap">92 - 993135221</p>
+                <p class="mail">frankjunior23@gmail.com</p>
+                <p class="github">frankjr23@github.com</p>
+            </div>
+        </header>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <h2>Skills</h2> 
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Hard</h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/img/icons/languages/javaicon.svg" alt="Java" title="Java">
+                            </li>
+
+                            <li>
+                                <img src="/assets/img/icons/languages/jscripicon.svg" alt="JavaScript" title="JavaScript">
+                            </li>
+
+                            <li>
+                                <img src="/assets/img/icons/languages/cssicon.svg" alt="CSS" title="CSS">
+                            </li>
+
+                            <li>
+                                <img src="/assets/img/icons/hubicon.svg" alt="GitHub" title="GitHub">
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Soft</h3>
+                        <ul>
+                            <li>Facilidade de Comunicação</li>
+                            <li>Organização</li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Compromisso</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2> 
+            </button>
+
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2> 
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title github">Pokedex com JavaScript</h3>
+                        <a href="https://github.com/FrankJr23/ProjetoJS" target="_blank" >JS - Pokedex</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">APP SIMES</h3>
+                        <a href="https://github.com/FrankJr23/estudo" target="_blank"> Projeto - SIMES</a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Professor - SEDUC/AM</h3>
+                        <p class="period">Jan-2012 - Atualmente</p>
+                        <p>Professor de Matemática - Do Ensino Médio - atuando na E.E.Angelo Ramazzotti, 
+                            regime integral com 40hrs semanais.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3 class="title">Professor - Recanto da Criança Interativo</h3>
+                        <p class="period">Agos-2008 - Jan-2010 </p>
+                        <p>Professor de Matemática Ensino Fundamental 6º a 9º Ano - atuando em
+                            regime integral com 40hrs semanais.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3 class="title">Operador de Computador - Reprox Collor Serviços Gráficos</h3>
+                        <p class="period">Fev-2005 - Out-2007 </p>
+                        <p>Operador de Computador - Atuando no atendimento ao cliente com
+                            serviços gráficos com impressões e plotagens.
+                        </p>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+
+</html>
