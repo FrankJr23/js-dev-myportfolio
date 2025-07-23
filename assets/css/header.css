@@ -45,21 +45,21 @@
 
 }
 
-.information .pessoa::before{
+.information .job1::before{
     background-image: url('../img/icons/pessoa.svg');
 }
 
-.information .pessoa::before {
+.information .job2::before {
     background-image: url('../img/icons/pessoa.svg');
 }
 
-.information .local::before {
+.information .location::before {
     background-image: url('../img/icons/local.svg');
 }
-.information .zap::before{
+.information .phone::before{
     background-image: url('../img/icons/zap.svg');
 }
-.information .mail::before {
+.information .email::before {
     background-image: url('../img/icons/mail.svg');
 }
 .information .github::before {
