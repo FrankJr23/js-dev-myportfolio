@@ -46,24 +46,24 @@
 }
 
 .information .pessoa::before{
-    background-image: url(../img/icons/pessoa.svg);
+    background-image: url('../img/icons/pessoa.svg');
 }
 
 .information .pessoa::before {
-    background-image: url(../img/icons/pessoa.svg);
+    background-image: url('../img/icons/pessoa.svg');
 }
 
 .information .local::before {
-    background-image: url(../img/icons/local.svg);
+    background-image: url('../img/icons/local.svg');
 }
 .information .zap::before{
-    background-image: url(../img/icons/zap.svg);
+    background-image: url('../img/icons/zap.svg');
 }
 .information .mail::before {
-    background-image: url(../img/icons/mail.svg);
+    background-image: url('../img/icons/mail.svg');
 }
 .information .github::before {
-    background-image: url(../img/icons/github.svg);
+    background-image: url('../img/icons/github.svg');
 }
 
 @media only screen and (min-width:768px) {
