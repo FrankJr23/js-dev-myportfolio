@@ -1,10 +1,12 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Frank Junior",
+  "photo": "https://avatars.githubusercontent.com/u/200602086?v=4",
+  "job1": "2º Periodo - Analise e Desenvolvimento de Sistemas - Uninorte",
+  "job2": "Professor de Matemática - SEDUC/AM",
+  "location": "Manaus - AM",
+  "phone": "(92) 99313-5221",
+  "email": "frankjunior23@gmail.com",
+  "github": "https://github.com/FrankJr23",
   "skills": {
     "hardSkills": [
       {
