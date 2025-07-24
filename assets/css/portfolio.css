@@ -15,7 +15,7 @@
     margin: 1rem 0;
 }
 
-.portfolio li .h3 {
+.portfolio li h3 {
     display: flex;
     flex-direction: row;
     font-size: 1.25rem;
