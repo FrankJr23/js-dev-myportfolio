@@ -54,8 +54,6 @@ function updatePortfolio(profileData) {
         `
     }).join('')
 }
-
-
 (async () => {
     
     const profileData = await fetchProfileData()
