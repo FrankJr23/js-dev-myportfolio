@@ -38,6 +38,6 @@ function updateSoftSkills(profileData) {
     
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
-    updatesoftSkills(profileData)
+    updateSoftSkills(profileData)
 
 })()
