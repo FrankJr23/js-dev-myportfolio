@@ -24,7 +24,7 @@
 
 }
 
-.portfolio li .h3 .github::before {
+.portfolio li h3.github::before {
     content: "";
     display: inline;
     padding: .10rem;
